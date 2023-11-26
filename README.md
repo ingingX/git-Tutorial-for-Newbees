@@ -49,10 +49,10 @@ touch ./shouldBeIgnored/py
 
 in .gitignore:
 
-*.py: ingored
+	*.py: ingored
 
-./shouldBeIgnored: ignored
+	./shouldBeIgnored: ignored
 
-!important.txt: tracked
+	!important.txt: tracked
 
 
