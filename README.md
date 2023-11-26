@@ -52,7 +52,6 @@ in .gitignore:
 	*.py: ingored
 
 	./shouldBeIgnored: ignored
-
 	!important.txt: tracked
 
 
