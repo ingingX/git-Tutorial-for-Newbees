@@ -18,6 +18,12 @@ Learning git commands from beginning as a newbee.
 ### create empty txt file
 	touch ./newFolder/name.txt
 
+### ssh related
+	ssh usr@server.com # connect to server
+	scp -r local/folder usr@server.com:/remote/folder # upload local foler to server
+	scp -r usr@server.com:/remote/folder ~/local/folder # download server foler to loccal
+	scp  local/file_path usr@server.com:/remote/file # upload local file to server
+	scp  usr@server.com:/remote/file ~/local/file_path # download server file to local
 
 
 ## git clone
